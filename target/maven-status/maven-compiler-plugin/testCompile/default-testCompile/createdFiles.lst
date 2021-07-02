@@ -1,0 +1,4 @@
+amazonIn\Runners\amazonInRunner.class
+amazonIn\Steps\amazonInSteps.class
+amazonIn\Pages\amazonInPages.class
+amazonIn\StepsDefinition\amazonInStepsDefinition.class
