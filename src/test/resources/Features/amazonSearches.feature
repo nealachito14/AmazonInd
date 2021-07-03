@@ -28,5 +28,5 @@ Feature: search for the latest motorola cell phone
     Examples: 
       | object          | brand      |
       | "Mobile phones" | "Motorola" |
-      | "Mobile phones" | "Redmi"  |
+      
       
