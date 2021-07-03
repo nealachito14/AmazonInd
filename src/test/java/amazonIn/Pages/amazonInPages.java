@@ -60,8 +60,9 @@ public class amazonInPages extends PageObject {
 		String cadena = "";
 		cadena = lblNroofResults.getText();
 		String [] fracciones = cadena.split(" ");
-		if(cadena.equals("1-24 of 25 results for")){
-			number = 24;
+		if(cadena.contains(" of ")){
+			String [] fracc = fracciones[0].split("-");
+			number = Integer.parseInt(fracc[1]);
 		}else{
 			number = Integer.parseInt(fracciones[0]);
 		}
